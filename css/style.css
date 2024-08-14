@@ -1,6 +1,6 @@
 * {
     box-sizing:border-box;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
 }
 
 h1 {
@@ -40,4 +40,29 @@ footer {
      display: flex;
     justify-content: center;
 
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    padding-left: 3rem;
+
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+#player-info {
+    display: grid;
+    justify-content: center;
+    
+}
+
+.player-info {
+    color: rgb(91, 91, 196);
+}
+
+#stats p {
+    font-size: 10px;
 }
