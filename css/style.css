@@ -1,7 +1,43 @@
+* {
+    box-sizing:border-box;
+    border: 1px dotted red;
+}
+
 h1 {
     color: beige;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+header {
+    background-color: rgb(10, 10, 144);
+    /* padding-left: 1rem; */
+    box-shadow: 1px 1px 5px 3px #808080;
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(207, 203, 203);
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+img {
+    border-radius: 50%;
+}
+
+div>h3 {
+    color: white;
+    display: center;
+    text-align: center;
+    font-size: 30px
+}
+
+footer {
+     display: flex;
+    justify-content: center;
+
 }
