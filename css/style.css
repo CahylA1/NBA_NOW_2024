@@ -3,17 +3,27 @@
     /* border: 1px dotted red; */
 }
 
+body {
+    font-size: 16px;
+}
+
 h1 {
     color: beige;
     text-align: center;
     margin-top: 0;
 }
 
-
+main {
+    padding: 40px;
+}
 header {
     background-color: rgb(10, 10, 144);
-    /* padding-left: 1rem; */
+    padding-left: 1rem;
     box-shadow: 1px 1px 5px 3px #808080;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -24,9 +34,14 @@ body {
 .container {
     display: grid;
     place-items: center;
+    max-width: 30%;
 }
+
 img {
     border-radius: 50%;
+    height: auto;
+    width: 100%;
+
 }
 
 div>h3 {
@@ -56,6 +71,7 @@ footer {
 #player-info {
     display: grid;
     justify-content: center;
+    padding: 1rem;
     
 }
 
@@ -66,3 +82,4 @@ footer {
 #stats p {
     font-size: 10px;
 }
+
