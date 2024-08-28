@@ -3,7 +3,7 @@
 # Technologies used 
     -HTML
     -CSS
-    -JAVASCRIPT/jQUERY
+    -JAVASCRIPT
     -BOOTSTRAP
     -BALLDONTLIE.API
 
