@@ -1,13 +1,14 @@
 // Required Dependencies 
+require('dotenv').config()
 const express = require('express')
 const cors = require('cors')
 const logger = require('morgan')
 const playersRouter = require('./routes/players')
-require('dotenv').config()
 
 // Express App 
 const PORT = 3000
 const app = express()
+app.use(express.json())
 
 // Middleware Pipeline
 app.use(cors())
