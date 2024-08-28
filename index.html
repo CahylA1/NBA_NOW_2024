@@ -49,8 +49,14 @@
         </div>
     </main>
     <footer>
-        Copyright &copy; <span id="year"></span> NBA NOW
+        Copyright &copy; <span id="current-year"></span> NBA NOW
     </footer>
 </body>
-
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+    const yearSpan = document.getElementById('current-year');
+    const currentYear = new Date().getFullYear();
+    yearSpan.textContent = currentYear;
+  });
+</script>
 </html>
